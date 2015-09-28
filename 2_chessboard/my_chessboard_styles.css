@@ -26,21 +26,31 @@ body
 
 .board{
   border: thick teal solid;
-  margin: auto;
+  margin: 36px auto;
 
 }
 
 .square{
   color: rgb(255, 150, 64);
   font-size:48px;
-  height: 70px;
-  width: 70px;
+  height: 72px;
+  width: 72px;
   text-align: center;
-  text-shadow: rgb(51, 51, 51) 1px 1px 2px;;
+  text-shadow: 1px 1px 2px #333;;
 }
 
 .dark_square{
-  background: teal;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#3e7070+0,277272+41,1d7373+100 */
+  background: rgb(62,112,112); /* Old browsers */
+  background: -moz-linear-gradient(-45deg,  rgb(62,112,112) 0%, rgb(39,114,114) 41%, rgb(29,115,115) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgb(62,112,112)), color-stop(41%,rgb(39,114,114)), color-stop(100%,rgb(29,115,115))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(-45deg,  rgb(62,112,112) 0%,rgb(39,114,114) 41%,rgb(29,115,115) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(-45deg,  rgb(62,112,112) 0%,rgb(39,114,114) 41%,rgb(29,115,115) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(-45deg,  rgb(62,112,112) 0%,rgb(39,114,114) 41%,rgb(29,115,115) 100%); /* IE10+ */
+  background: linear-gradient(135deg,  rgb(62,112,112) 0%,rgb(39,114,114) 41%,rgb(29,115,115) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3e7070', endColorstr='#1d7373',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+
 }
 
 
