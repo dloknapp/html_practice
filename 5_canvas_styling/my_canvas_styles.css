@@ -1,0 +1,39 @@
+body {
+  font-family: "Arial";
+  font-size: 6pt;
+}
+
+td {
+  vertical-align: top;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0; /*what's the difference between padding and margin*/
+}
+
+h3{
+  text-transform: uppercase;
+  font-size: 8px;
+  margin-bottom: 0px;
+}
+
+.canvas{
+  width: 100%;
+
+}
+
+.canvas_section{
+  border: thin black solid;
+  padding: 0 10px;
+}
+
+.sublist{
+  list-style-type: none;
+  font-style: italic;
+}
+
+.wide_input{
+  width: 90%;
+}
