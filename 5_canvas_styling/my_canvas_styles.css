@@ -8,7 +8,7 @@ td {
 }
 
 ul{
-  list-style-type: none;
+  list-style-type:  none;
   margin: 0;
   padding: 0; /*what's the difference between padding and margin*/
 }
@@ -26,7 +26,7 @@ h4{
 ol{
   list-style-type: decimal;
   list-style-position: outside;
-  padding: 0 10px;
+  padding: 10px 10px;
   margin: 0;
 }
 
@@ -51,4 +51,4 @@ p{
 
 .wide_input{
   width: 90%;
-}
+}  /*What does this mean?*/
