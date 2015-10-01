@@ -27,16 +27,16 @@ body
 .board{
   border: thick teal solid;
   margin: 36px auto;
-
 }
 
 .square{
   color: rgb(255, 150, 64);
   font-size:48px;
   height: 72px;
-  width: 72px;
+  width: 74px;
   text-align: center;
-  text-shadow: 1px 1px 2px #333;;
+  text-shadow: 1px 1px 2px #333;
+  padding: 0;
 }
 
 .dark_square{
